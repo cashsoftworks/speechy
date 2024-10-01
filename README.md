@@ -1,11 +1,15 @@
 # Installation Guide for Speechy
+
+This guide will help you set up and run a Flask application that utilizes Google's Gemini AI model for generating conversational responses.
+
 > [!NOTE]
 > This is not for production. It can only be accessed through the local network.
 
 > [!WARNING]  
 > The memory in this AI is global, so it will be the same for all devices and reset when the flask app is turned off/restarted.
 
-This guide will help you set up and run a Flask application that utilizes Google's Gemini AI model for generating conversational responses.
+> [!CAUTION]
+> Make sure to run this in a controlled lab environment. ;)
 
 > [!IMPORTANT]
 > Before you begin, ensure you have the following installed on your system:
