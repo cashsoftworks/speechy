@@ -3,7 +3,9 @@
 This guide will help you set up and run a Flask application that utilizes Google's Gemini AI model for generating conversational responses.
 
 > [!NOTE]
-> This is not for production. It can only be accessed through the local network. 
+> This is not for production. It can only be accessed through the local network.
+
+> [!NOTE] 
 > The memory in this AI is global, so it will be the same for all devices and reset when the flask app is turned off/restarted.
 
 ----------------------------------------------------------------------------------------------
