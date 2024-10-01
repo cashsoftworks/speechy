@@ -8,7 +8,7 @@ today = date.today()
 app = Flask(__name__)
 
 # Set your Google Gemini API key
-key = "AIzaSyCM63ZpZe96chVnszc6-2U7LGNk88Bg7UM"  # Replace with your own key from Google
+key = "GEMINI-API-KEY"  # Replace with your own key from Google
 genai.configure(api_key=key)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
