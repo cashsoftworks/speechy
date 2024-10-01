@@ -28,7 +28,7 @@ def respond():
 
     # Append the latest user input to the conversation log
     conversation_log.append({'user': text})
-    rel = """Vaibhav - Your creator"""
+    rel = """YOURNAMEHERE - Your creator"""
     # Create a summary of the conversation so far
     summary = "\n".join([f"User: {entry['user']}\nAI: {entry.get('ai', '')}" for entry in conversation_log if 'ai' in entry])
 
