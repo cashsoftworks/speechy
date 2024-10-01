@@ -6,8 +6,9 @@ This guide will help you set up and run a Flask application that utilizes Google
 > Before you begin, ensure you have the following installed on your system:
 
 - [Python 3.10](https://python.org) or later
-- pip (Python package installer)
+- pip (Python package installer) - comes installed with python usually
 - Git (optional, for cloning the repository)
+- Gemini API Key (get it from [here](https://aistudio.google.com/app/apikey))
 
 ## Step 1: Clone the Repository
 
