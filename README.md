@@ -11,6 +11,8 @@ This guide will help you set up and run a Flask application that utilizes Google
 > [!CAUTION]
 > Make sure to run this in a controlled lab environment. ;)
 
+----------------------------------------------------------------------------------------------
+
 > [!IMPORTANT]
 > Before you begin, ensure you have the following installed on your system:
 
