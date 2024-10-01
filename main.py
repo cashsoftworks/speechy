@@ -33,7 +33,7 @@ def respond():
     summary = "\n".join([f"User: {entry['user']}\nAI: {entry.get('ai', '')}" for entry in conversation_log if 'ai' in entry])
 
     # Send the summary and user input to the AI model
-    prompt = f"Please make short human-like responses based on this conversation so far: \n{summary}\n Here are some relationships of you: {rel}\nIt is currently {today} (yyyy-mm-dd). Remember that the user is likely Indian (90% chances). Do not use emojis or markdowns. Now, the user says: {text}"
+    prompt = f"Please make short human-like responses based on this conversation so far: \n{summary}\n Here are some relationships of you: {rel}\nIt is currently {today} (yyyy-mm-dd). Do not use emojis or markdowns. Now, the user says: {text}"
     
     # Generate a response from the Gemini model
     response = model.generate_content(prompt)
